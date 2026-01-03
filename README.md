@@ -1,25 +1,25 @@
 # StudentAlgoApp
 
-## ?? Description
+##  Description
 A console application developed in C# (.NET 8) for the Algorithms practical exam.  
 The project demonstrates the use of doubly linked lists and binary search trees (BST) to manage student records.
 
-## ?? Features
+##  Features
 - Add students at the beginning or end of the list.
 - Sort students:
-  - By Name (A ? Z).
-  - By Average (lowest ? highest).
+  - By Name (A -> Z).
+  - By Average (lowest -> highest).
 - Search students with an exact exam score (iterative, non-recursive).
 - Filter students with average > 85.
 - Delete a student by Id.
 - Display all students from the list.
 - Display students in-order by average using BST.
 
-## ?? Data Structure Details
+##  Data Structure Details
 - Doubly Linked List: Supports insertion, deletion, sorting, searching, and filtering.
 - Binary Search Tree (BST): Stores students by average, supports in-order traversal, filtering, and deletion.
 
-## ?? Student Data
+##  Student Data
 Each student record contains:
 - Id (integer)
 - Name (string)
@@ -29,7 +29,7 @@ Each student record contains:
 - Average = (Exam1 + Exam2) / 2
 - Grade (enum): Weak, Failing, Good, VeryGood, Excellent
 
-## ?? How to Run
+##  How to Run
 1. Install [.NET 8 SDK](https://dotnet.microsoft.com/download).
 2. Clone the repository:
    `bash
@@ -38,7 +38,7 @@ Each student record contains:
 
 
 
-## Contrib
+## Contributors
 
 - Abdullah Al-Ajrad 
 - Baraa Aita 
